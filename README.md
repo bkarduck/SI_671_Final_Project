@@ -17,14 +17,14 @@ The data used in this study is sourced from the Centers for Disease Control and 
 Our initial dataset included all available data provided by ILINet since its inception in 1997 at the national and state level through week 45 of 2023. The data is aggregated in weekly intervals. Prior to 2002, data is not available for non-flu season weeks (week 21-39), so we dropped those flu seasons from our analysis as the missing data doesn’t accurately reflect ILI cases for those years. 
 
 ## Time Series Analysis
-* Anomaly Detection contains the scratch code for the time series analysis
+* Anomaly Detection contains the code we used for our analysis of the seasonality of ILI data. This was included in our project report.
 
-* Part 1 Time Series contains the cleaned time series analysis
+* Part 1 Time Series contains the time series analysis of the flu cases in relation to vaccine doses provided, which was an aspect of our project that we considered but did not follow through with. One initial idea was that we wanted to analyze how the rate of vaccine administration has shifted or subsequently not shifted as the time of peak flu illness rates has changed. There is potential for further investigation here.
 
 ## Predictive Modeling
 * Part 2 Predictive Modeling and Part 2 Predictive Modeling TV contain messy scratch notebooks for developing models.
 
-* Part 3 Final Modeling contains our implementations for our cleaned, final models 
+* Part 3 Final Modeling contains our implementations for our cleaned, final models. 
  
 
 
